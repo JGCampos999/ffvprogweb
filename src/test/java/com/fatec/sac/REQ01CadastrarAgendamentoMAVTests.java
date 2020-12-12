@@ -11,7 +11,7 @@ import org.springframework.test.web.servlet.result.ViewResultMatchers;
 
 public class REQ01CadastrarAgendamentoMAVTests {
 	@Autowired
-	MockMvc mockMvc;// simula o processamento de uma requisicao web
+	MockMvc mockMvc;
 
 	@Test
 	public void ct01_quando_seleciona_cadastrar_livro_retorna_200() throws Exception {
